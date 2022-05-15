@@ -1,0 +1,6 @@
+.about-section__wrapper {
+    background-color: #ffd132;
+    z-index: 1000;
+    position: relative;
+    padding: 20px 0;   
+}

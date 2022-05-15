@@ -1,0 +1,12 @@
+.section__circle {
+    width: 100px;
+    height: 100px;
+    background-color: #211863;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: bold;
+    margin: 20px auto;
+}
