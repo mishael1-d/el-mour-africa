@@ -5,12 +5,10 @@ import SectionCircle from "../SectionCircle/SectionCircle"
 
 const Services = () => {
   return (
-    <>
-    <div className="service-container container">
+    <div className="service-container container" id="services">
       <SectionCircle name="Services"/>
       <Cards />
     </div>
-    </>
   );
 };
 

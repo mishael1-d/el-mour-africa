@@ -13,17 +13,17 @@
   height: 80vh;
 }
 h3 {
-  color: #ffd132;
+  color: #685614;
   font-size: 50px;
   margin-bottom: 20px;
 }
 span {
-  color: #281e71;
-  /* color: #ffd132; */
+  color: #35133b;
+  /* color: #685614; */
 }
 .hero-text {
   max-width: 500px;
-  color: #281e71;
+  color: #35133b;
   /* padding: 0 40px; */
   line-height: 30px;
 }
@@ -48,16 +48,20 @@ span {
   cursor: pointer;
 }
 .btn {
-  background-color: #ffd132;
-  color: #281e71;
+  background-color: #685614;
+  color: #35133b;
   border: none;
   outline: none;
   padding: 10px 25px;
   border-radius: 10px;
+  cursor: pointer;
 }
 .btn1 {
   background: none;
-  border: 1px solid #dab224;
+  border: 1px solid #685614;
+}
+.btn1 a {
+  color: #35133b !important;
 }
 .btn2 {
   margin: 0 0.75rem;

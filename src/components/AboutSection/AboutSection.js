@@ -5,7 +5,7 @@ import Timeline from '../Timeline/Timeline'
 
 const AboutSection = () => {
   return (
-    <div className='about-section__wrapper'>
+    <div className='about-section__wrapper' id='about'>
         <div className='about-section__container container'>
             <SectionCircle name="About"/>
             <Timeline />

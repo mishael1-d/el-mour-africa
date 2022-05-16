@@ -1,6 +1,7 @@
 .contact-wrapper {
     position: relative;
-    top: 100px;
+    top: 200px;
+    margin-bottom: 1.5rem;
 }
 
 .contact-form-container {
@@ -14,7 +15,7 @@
 .contact-form-left {
     width: 25%;
     height: 400px;
-    background-color: #211863;
+    background-color: #35133b;
     color: #fff;
     padding: 20px 30px;
     display: flex;
@@ -35,7 +36,7 @@
 }
 .contact-form-right-content label {
     margin-bottom: .5rem;
-    color: #211863;
+    color: #35133b;
 }
 .contact-form-right-content input {
     padding: 10px 20px;
@@ -44,6 +45,7 @@
     border: none;
     background-color: #eeeeee;
     margin-bottom: .5rem;
+    text-transform: capitalize;
 }
 
 .contact-form-right-content textarea {
@@ -67,7 +69,8 @@
 .contact-form-right h3 {
     text-align: center;
     margin-bottom: 1rem;
-    color: #211863;
+    color: #35133b;
+    font-size: 1rem;
 }
 
 .send-btn {
@@ -75,7 +78,7 @@
     margin: 0 auto;
     text-align: center;
     padding: 10px 20px;
-    background-color: #211863;
+    background-color: #35133b;
     color: #fff;
     border: none;
     outline: none;

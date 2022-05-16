@@ -6,28 +6,28 @@ const timelineData = [
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam labore quasi distinctio saepe hic eligendi, possimus unde repellendus rem. Fugit doloribus ducimus natus libero iusto ea hic quod nisi consequuntur.",
     category: {
       tag: "Introduction",
-      color: "#281e71",
+      color: "#35133b",
     }
   },
   {
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam labore quasi distinctio saepe hic eligendi, possimus unde repellendus rem. Fugit doloribus ducimus natus libero iusto ea hic quod nisi consequuntur.",
     category: {
       tag: "what we do?",
-      color: "#281e71",
+      color: "#35133b",
     }
   },
   {
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam labore quasi distinctio saepe hic eligendi, possimus unde repellendus rem. Fugit doloribus ducimus natus libero iusto ea hic quod nisi consequuntur.",
     category: {
       tag: "why we do it?",
-      color: "#281e71",
+      color: "#35133b",
     }
   },
   {
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam labore quasi distinctio saepe hic eligendi, possimus unde repellendus rem. Fugit doloribus ducimus natus libero iusto ea hic quod nisi consequuntur.",
     category: {
       tag: "how we do it?",
-      color: "#281e71",
+      color: "#35133b",
     }
   }
 ];

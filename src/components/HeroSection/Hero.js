@@ -7,7 +7,7 @@ import "./Hero.css"
 
 const Hero = () => {
   return (
-    <div className="hero__wrapper">
+    <div className="hero__wrapper" id="home">
       <div className="hero-section__container container">
         <div className="hero-text__container">
           <h3>El'<span>mour</span> Afr<span>ica</span></h3>
@@ -19,13 +19,13 @@ const Hero = () => {
               fugiat iusto.
             </p>
             <div className="read-more__container">
-                <button className="btn btn1">Read More</button>
-                <button className="btn btn2">Contact Me</button>
+            <a href="#about"><button className="btn btn1">Read More</button></a>
+            <a href="#contact">   <button className="btn btn2">Contact Me </button></a>
             </div>
           </div>
         </div>
         <div className="hero-img__container">
-          <video src={heroImage} autoPlay={true} />
+          <video src={heroImage} autoPlay={true} loop={true}/>
         </div>
       </div>
     </div>

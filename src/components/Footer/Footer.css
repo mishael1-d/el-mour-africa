@@ -1,0 +1,21 @@
+.footer-section {
+    position: relative;
+    top: 200px;
+    background-color: #35133b;
+    color: #fff;
+    padding: 50px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.footer-heading{
+    max-width: 30%;
+}
+.footer-center, .social-icons {
+    padding-top: 40px;
+}
+.footer-center .navbar-links__container {
+    flex-direction: column;
+}

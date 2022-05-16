@@ -1,7 +1,7 @@
 .section__circle {
     width: 100px;
     height: 100px;
-    background-color: #211863;
+    background-color: #35133b;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -9,4 +9,9 @@
     border-radius: 50%;
     font-weight: bold;
     margin: 20px auto;
+    transition: .5s ease;
+    cursor: pointer;
+}
+.section__circle:hover{
+    transform: rotate(360deg);
 }

@@ -1,13 +1,13 @@
 .service-container {
     position: relative;
-    top: 30px;
+    top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .service-container .section__circle {
-    background: #ffd132;
+    background: #685614;
 }
 
 .card-wrapper {
@@ -72,7 +72,7 @@ h3 {
     border: none;
     transition: 0.2s;
     margin-bottom: 0.5rem;
-    background-color: #ffd132;
+    background-color: #685614;
 }
 a {
     color: #fff;

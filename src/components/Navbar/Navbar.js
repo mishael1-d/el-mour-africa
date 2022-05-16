@@ -6,13 +6,13 @@ const Navbar = () => {
     <div className="navbar__wrapper">
       <div className="navbar__container container">
         <div className="logo__container">
-          <img src={logo} alt="El'mour Africa" className="logo-image" />
+          <a href="/"><img src={logo} alt="El'mour Africa" className="logo-image" /></a>
         </div>
         <ul className="navbar-links__container">
-          <li className="navbar-links">Home</li>
-          <li className="navbar-links">About</li>
-          <li className="navbar-links">Services</li>
-          <li className="navbar-links">Contact</li>
+          <li className="navbar-links"><a href="/">Home</a></li>
+          <li className="navbar-links"><a href="#about">About</a></li>
+          <li className="navbar-links"><a href="#services">Services</a></li>
+          <li className="navbar-links"><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
