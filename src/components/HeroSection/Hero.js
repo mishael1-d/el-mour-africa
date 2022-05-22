@@ -1,6 +1,4 @@
 import React from "react";
-import logo from "../../assets/logo.png";
-import Arrow from "../../assets/Arrow.png"
 import heroImage from "../../assets/video.mp4"
 import "./Hero.css"
 
