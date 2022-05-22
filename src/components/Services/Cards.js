@@ -3,17 +3,17 @@ import "./Services.css";
 import image from "../../assets/hero-image.png";
 const cardDetails = [
   {
-    title: "Card title",
+    title: "Card title1",
     body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam labore quasi distinctio saepe hic eligendi, possimus unde repellendus rem. Fugit doloribus ducimus natus libero iusto ea hic quod nisi consequuntur.",
     imageUrl: image,
   },
   {
-    title: "Card title",
+    title: "Card title2",
     body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam labore quasi distinctio saepe hic eligendi, possimus unde repellendus rem. Fugit doloribus ducimus natus libero iusto ea hic quod nisi consequuntur.",
     imageUrl: image,
   },
   {
-    title: "Card title",
+    title: "Card title3",
     body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam labore quasi distinctio saepe hic eligendi, possimus unde repellendus rem. Fugit doloribus ducimus natus libero iusto ea hic quod nisi consequuntur.",
     imageUrl: image,
   },
@@ -24,7 +24,7 @@ const Cards = ({ title, body, imageUrl }) => {
     <div className="card-container">
       {cardDetails.map((card) => {
         return (
-          <div className="card-wrapper">
+          <div className="card-wrapper" key={card.title}>
             <div className="image-container">
               <img src={card.imageUrl} alt="" />
             </div>
@@ -35,11 +35,6 @@ const Cards = ({ title, body, imageUrl }) => {
               <div className="card-body">
                 <p>{card.body}</p>
               </div>
-            </div>
-            <div className="btn">
-              <button>
-                <a href="google">View More</a>
-              </button>
             </div>
           </div>
         );

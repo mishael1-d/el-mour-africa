@@ -12,7 +12,7 @@
 
 
 .timeline-container::after {
-    background-color: #35133b;
+    background-color: #926c15;
     content: '';
     position: absolute;
     left: calc(50% - 2px);
@@ -117,7 +117,7 @@
 
 .timeline-item-content .circle {
     background-color: #fff;
-    border: 3px solid #35133b;
+    border: 3px solid #926c15;
     border-radius: 50%;
     position: absolute;
     top: calc(50% - 10px);
@@ -132,7 +132,7 @@
     left: -40px;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1024px) {
     .timeline-item-content {
         max-width: 100%;
     }

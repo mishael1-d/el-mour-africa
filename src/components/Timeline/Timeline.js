@@ -3,31 +3,31 @@ import "./Timeline.css";
 
 const timelineData = [
   {
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam labore quasi distinctio saepe hic eligendi, possimus unde repellendus rem. Fugit doloribus ducimus natus libero iusto ea hic quod nisi consequuntur.",
+    text: "El'mour Africa is an organization set up to economically and mentally empower people by facilitating the development of both soft and hard skills through physical and online trainings, confrences and seminars.",
     category: {
       tag: "Introduction",
-      color: "#35133b",
+      color: "#926c15",
     }
   },
   {
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam labore quasi distinctio saepe hic eligendi, possimus unde repellendus rem. Fugit doloribus ducimus natus libero iusto ea hic quod nisi consequuntur.",
+    text: "We aim to build confident, mentally strong people who are outstanding in their spheres and capable of standing in both local and global stage. Our major areas of interest includes: Personal development, Mental health awareness, HUman capacity building through the provision of hard skills training and image building.",
     category: {
       tag: "what we do?",
-      color: "#35133b",
+      color: "#926c15",
     }
   },
   {
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam labore quasi distinctio saepe hic eligendi, possimus unde repellendus rem. Fugit doloribus ducimus natus libero iusto ea hic quod nisi consequuntur.",
+    text: "We do what we do because our major goal is to build high value people that will contribute their quota towards the develpment of the nation and as well impact the world globally.",
     category: {
       tag: "why we do it?",
-      color: "#35133b",
+      color: "#926c15",
     }
   },
   {
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam labore quasi distinctio saepe hic eligendi, possimus unde repellendus rem. Fugit doloribus ducimus natus libero iusto ea hic quod nisi consequuntur.",
+    text: "We facilitate the development of both soft and hard skills through physical training, online trainings, conferences and seminars.",
     category: {
       tag: "how we do it?",
-      color: "#35133b",
+      color: "#926c15",
     }
   }
 ];

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../../assets/logo.png"
+import logo from "../../assets/logo1.png"
 const Navbar = () => {
   return (
     <div className="navbar__wrapper">
@@ -14,6 +14,7 @@ const Navbar = () => {
           <li className="navbar-links"><a href="#services">Services</a></li>
           <li className="navbar-links"><a href="#contact">Contact</a></li>
         </ul>
+          <button className="menu-btn">Menu</button>
       </div>
     </div>
   );

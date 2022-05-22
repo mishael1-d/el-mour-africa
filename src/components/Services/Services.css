@@ -7,7 +7,7 @@
 }
 
 .service-container .section__circle {
-    background: #685614;
+    background: #926c15;
 }
 
 .card-wrapper {
@@ -72,9 +72,23 @@ h3 {
     border: none;
     transition: 0.2s;
     margin-bottom: 0.5rem;
-    background-color: #685614;
+    background-color: #926c15;
 }
-a {
-    color: #fff;
+.service-container a {
+    color: #000;
 
+}
+
+@media only screen and (max-width: 768px){
+    .service-container {
+        position: relative;
+        top: -50px;
+    }
+    .card-container {
+        flex-direction: column;
+    }
+    .card-wrapper {
+        width: 90%;
+        margin: 20px auto;
+    }
 }

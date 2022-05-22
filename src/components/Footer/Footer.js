@@ -1,11 +1,11 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo1.png";
 
 const Footer = () => {
   return (
-    <div className="footer-section">
-      <div className="footer-heading">
+    <div className="footer-section container">
+      <div className="footer-heading ">
       <div className="logo__container">
           <a href="/"><img src={logo} alt="El'mour Africa" className="logo-image" /></a>
         </div>

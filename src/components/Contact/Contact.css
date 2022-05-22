@@ -15,7 +15,7 @@
 .contact-form-left {
     width: 25%;
     height: 400px;
-    background-color: #35133b;
+    background-color: #926c15;
     color: #fff;
     padding: 20px 30px;
     display: flex;
@@ -36,7 +36,7 @@
 }
 .contact-form-right-content label {
     margin-bottom: .5rem;
-    color: #35133b;
+    color: #926c15;
 }
 .contact-form-right-content input {
     padding: 10px 20px;
@@ -69,7 +69,7 @@
 .contact-form-right h3 {
     text-align: center;
     margin-bottom: 1rem;
-    color: #35133b;
+    color: #926c15;
     font-size: 1rem;
 }
 
@@ -78,10 +78,31 @@
     margin: 0 auto;
     text-align: center;
     padding: 10px 20px;
-    background-color: #35133b;
+    background-color: #926c15;
     color: #fff;
     border: none;
     outline: none;
     text-transform: uppercase;
     margin-top: .5rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px){
+    .contact-wrapper {
+        position: relative;
+        top: 0px;
+    }
+    .contact-form-container {
+        flex-direction: column-reverse;
+    }
+    .contact-form-left {
+        width: 90%;
+        height: fit-content;
+        margin: 0 auto;
+    }
+    .contact-form-right {
+        width: 90%;
+        margin: 10px auto;
+        padding: 0px;
+    }
 }

@@ -1,6 +1,13 @@
 .about-section__wrapper {
-    background-color: #685614;
-    z-index: 1000;
-    position: relative;
-    padding: 20px 0;   
+  /* background-color: #926c15; */
+  z-index: 1000;
+  position: relative;
+  top: 70px;
+  padding: 20px 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-section__wrapper {
+    top: -70px;
+  }
 }
