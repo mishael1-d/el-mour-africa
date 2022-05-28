@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="navbar__wrapper">
       <div className="navbar__container container">
         <div className="logo__container">
-          <a href="/"><img src={logo} alt="El'mour Africa" className="logo-image" /></a>
+          <a href="#"><img src={logo} alt="El'mour Africa" className="logo-image" /></a>
         </div>
         <ul className="navbar-links__container">
           <li className="navbar-links"><a href="/">Home</a></li>

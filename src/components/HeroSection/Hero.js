@@ -11,7 +11,7 @@ const Hero = () => {
           <h3>El'mour Africa</h3>
           <div className="hero-text">
             <p>
-              El'mour Africa is an organization set up to economically and mentally empower people by facilitating the development of both soft and hard skills through physical and online trainings, confrences and seminars.
+              El'mour Africa is an image consultancy firm set up to physically and mentally empower people by facilitating the development of both soft and hard skills through physical and online trainings, confrences, seminars and one-on-one coaching services.
             </p>
             <div className="read-more__container">
             <a href="#about"><button className="btn btn1">Read More</button></a>

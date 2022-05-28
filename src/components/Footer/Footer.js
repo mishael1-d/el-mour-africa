@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="footer-section container">
       <div className="footer-heading ">
       <div className="logo__container">
-          <a href="/"><img src={logo} alt="El'mour Africa" className="logo-image" /></a>
+          <a href="#"><img src={logo} alt="El'mour Africa" className="logo-image" /></a>
         </div>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae

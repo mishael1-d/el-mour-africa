@@ -3,30 +3,23 @@ import "./Timeline.css";
 
 const timelineData = [
   {
-    text: "El'mour Africa is an organization set up to economically and mentally empower people by facilitating the development of both soft and hard skills through physical and online trainings, confrences and seminars.",
+    text: "El'mour Africa is an image consultancy firm set up to physically and mentally empower people by facilitating the development of both soft and hard skills through physical and online trainings, confrences, seminars and one-on-one coaching services.",
     category: {
       tag: "Introduction",
       color: "#926c15",
     }
   },
   {
-    text: "We aim to build confident, mentally strong people who are outstanding in their spheres and capable of standing in both local and global stage. Our major areas of interest includes: Personal development, Mental health awareness, HUman capacity building through the provision of hard skills training and image building.",
+    text: "We aim to build confident, mentally strong people who are outstanding in their spheres and capable of standing in both local and global stage.",
     category: {
-      tag: "what we do?",
+      tag: "Aim",
       color: "#926c15",
     }
   },
   {
-    text: "We do what we do because our major goal is to build high value people that will contribute their quota towards the develpment of the nation and as well impact the world globally.",
+    text: "Our major goal is to build high value people role models, knowledge experts and global change makers.",
     category: {
-      tag: "why we do it?",
-      color: "#926c15",
-    }
-  },
-  {
-    text: "We facilitate the development of both soft and hard skills through physical training, online trainings, conferences and seminars.",
-    category: {
-      tag: "how we do it?",
+      tag: "Goals",
       color: "#926c15",
     }
   }
